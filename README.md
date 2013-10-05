@@ -1,4 +1,4 @@
 browser-validator-js
 ====================
 
-browser-validator-js could show friendly compatibility messages to user if the web site doesn't support specific web browser type or version.
+Show friendly messages to user if the website doesn't support specific web engine type/version. 

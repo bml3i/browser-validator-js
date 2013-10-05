@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>browser-validator-js</title>
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/browser-validator.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	
+	<div>
+		This is an example page. 
+	</div>
+	
+	<script type="text/javascript">
+	$(document).ready(function () {
+		BrowserValidator.init({
+			webkit: {
+				majorVersionMax: 0,
+				prompt: "Unfortunately, this site doesn't support any browsers with Webkit."
+			},
+			msie: {
+				majorVersionMin: 7,
+				majorVersionMax: 8,
+				prompt: "Unfortunately, this site supports IE 7/8. "
+			}
+		}).validateBrowser();
+	});	
+	</script>
+</body>
+</html>
