@@ -1,3 +1,12 @@
+/**
+ * browser-validator-js v1.0
+ * 
+ * This javascript library chould show friendly messages to user 
+ * if the website doesn't support specific web engine type/version. 
+ * 
+ * Source: https://github.com/bml3i/browser-validator-js
+**/
+
 var BrowserValidator = (function () {
 	// support engines: webkit, opera, msie, mozilla
 	// configuration items: majorVersionMin, majorVersionMax, prompt
