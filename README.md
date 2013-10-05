@@ -4,6 +4,7 @@
 # Example
 
 This online [demo](http://blog.bigcay.com/demo/browser_validator_demo.html) would prevent us from visiting the page if we are using the following web browser engines: 
+
 1. Webkit (Chrome/Safari)
 2. Any IE version other than 7 or 8
 
