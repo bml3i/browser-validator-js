@@ -6,7 +6,7 @@
 This online [demo](http://blog.bigcay.com/demo/browser_validator_demo.html) would prevent us from visiting the page if we are using the following web browser engines: 
 
 1. Webkit (Chrome/Safari)
-2. Any IE version other than 7 or 8
+2. Any IE with version other than 7 or 8
 
 **Link:**[http://blog.bigcay.com/demo/browser_validator_demo.html](http://blog.bigcay.com/demo/browser_validator_demo.html)
 
@@ -44,7 +44,7 @@ By default, browser-validator-js would prevent users from visiting the site if t
 
 In the above demo, we passed two configuration items to `.init(options)` method. The first configuration item is going to check if user is using any version of webkit browser (**note:** `majorVersionMax: 0` means we don't care the browser version as long as the web browser engine is webkit), if this is true, the prompt message `Unfortunately, this site doesn't support any browsers with Webkit.` would be shown on the screen. 
 
-For now, all supported web browser engines are: webkit (Chrome/Safari), opera, msie (IE) and mozilla (Firefox). 
+For now, all supported web browser engines are: **webkit** (Chrome/Safari), **opera**, **msie** (IE) and **mozilla** (Firefox). 
 
 	BrowserValidator.init({
 		webkit: {
